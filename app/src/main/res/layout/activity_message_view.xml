@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageViewActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/username_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#5698ac">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:textColor="#e9edef"
+                android:textSize="20sp"
+                android:background="@android:color/transparent"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textColor="#e9edef"
+                android:textSize="30sp"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/message_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username_area"
+            android:layout_above="@+id/message_input_layout"
+            android:background="@drawable/scroll_bg">
+
+            <LinearLayout
+                android:windowSoftInputMode="stateVisible|adjustResize"
+                android:fillViewport="true"
+                android:id="@+id/message_field"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/message_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:hint="Enter message">
+
+            <EditText
+                android:id="@+id/message_input"
+                android:inputType="textCapSentences|textMultiLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:layout_toLeftOf="@+id/send"
+                android:layout_alignParentLeft="true"
+                android:hint="Type message..."/>
+            <Button
+                android:id="@+id/send"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:text="➤"
+                android:backgroundTint="#5698ac"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
