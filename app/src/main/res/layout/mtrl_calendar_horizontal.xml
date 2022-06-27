@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<include layout="res/layout/mtrl_calendar_month_navigation.xml" />
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<androidx.recyclerview.widget.RecyclerView android:layout_gravity="0x1" android:id="false" android:scrollbars="0x0" android:layout_width="-2" android:layout_height="-1" />
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-1">
+			<include layout="res/layout/mtrl_calendar_days_of_week.xml" />
+			<include layout="res/layout/mtrl_calendar_months.xml" />
+		</LinearLayout>
+	</FrameLayout>
+</LinearLayout>

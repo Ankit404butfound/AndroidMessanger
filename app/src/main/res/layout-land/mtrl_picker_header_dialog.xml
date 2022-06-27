@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-2" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="0x800003" android:orientation="1" android:id="false" android:paddingLeft="12dp" android:paddingRight="12dp" android:paddingBottom="12dp" android:layout_width="-2" android:layout_height="-1" style="{2:2130903597}">
+		<FrameLayout android:id="false" android:paddingLeft="12dp" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+			<include layout="res/layout/mtrl_picker_header_title_text.xml" />
+			<include layout="res/layout/mtrl_picker_header_selection_text.xml" />
+		</FrameLayout>
+		<include layout="res/layout/mtrl_picker_header_toggle.xml" />
+	</LinearLayout>
+	<View android:layout_gravity="0x800005" android:layout_width="1dp" android:layout_height="-1" style="{2:2130903596}" />
+</merge>

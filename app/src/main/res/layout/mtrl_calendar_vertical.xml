@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<include layout="res/layout/mtrl_calendar_days_of_week.xml" />
+	<View android:background="{2:2130903233}" android:layout_width="-1" android:layout_height="1dp" />
+	<include layout="res/layout/mtrl_calendar_months.xml" />
+</LinearLayout>

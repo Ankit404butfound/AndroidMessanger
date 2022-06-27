@@ -1,46 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/user_layout"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:clickable="true"
-    android:foreground="?android:attr/selectableItemBackground">
-
-    <ImageView
-        android:id="@+id/user_icon"
-        android:layout_width="55sp"
-        android:layout_height="55sp"
-        android:src="@drawable/circle"
-        android:layout_marginLeft="10sp"/>
-
-    <TextView
-        android:id="@+id/user_details"
-        android:paddingLeft="20sp"
-        android:layout_toRightOf="@+id/user_icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="USERNAME\nSome message in"
-        android:textSize="20sp"/>
-
-    <RelativeLayout
-        android:layout_width="55sp"
-        android:layout_height="55sp"
-        android:layout_alignParentRight="true">
-
-        <TextView
-            android:id="@+id/message_count"
-            android:layout_width="25sp"
-            android:layout_height="25sp"
-            android:text="5"
-            android:textSize="15sp"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textColor="#ffffff"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:layout_centerVertical="true"
-            android:background="@drawable/circular_textview"/>
-    </RelativeLayout>
-
-
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:foreground="{2:16843534}">
+	<ImageView android:id="false" android:layout_width="55sp" android:layout_height="55sp" android:layout_marginLeft="10sp" android:src="res/drawable/circle.xml" />
+	<TextView android:textSize="20sp" android:id="false" android:paddingLeft="20sp" android:layout_width="-2" android:layout_height="-2" android:text="USERNAME
+Some message in" android:layout_toRightOf="false" />
+	<RelativeLayout android:layout_width="55sp" android:layout_height="55sp" android:layout_alignParentRight="true">
+		<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/circular_textview.xml" android:layout_width="25sp" android:layout_height="25sp" android:text="5" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+	</RelativeLayout>
 </RelativeLayout>

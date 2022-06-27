@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_checked="true" android:id="false" android:drawable="res/drawable/btn_radio_on_mtrl.xml" />
+	<item android:id="false" android:drawable="res/drawable/btn_radio_off_mtrl.xml" />
+	<transition android:drawable="res/drawable/btn_radio_on_to_off_mtrl_animation.xml" android:toId="false" android:fromId="false" />
+	<transition android:drawable="res/drawable/btn_radio_off_to_on_mtrl_animation.xml" android:toId="false" android:fromId="false" />
+</animated-selector>

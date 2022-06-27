@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="8dp" android:layout_width="-2" android:layout_height="-2">
+	<include android:id="false" layout="res/layout/material_chip_input_combo.xml" />
+	<include layout="res/layout/material_clock_display_divider.xml" />
+	<include android:id="false" layout="res/layout/material_chip_input_combo.xml" />
+</LinearLayout>

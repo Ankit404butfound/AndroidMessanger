@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+		<RelativeLayout android:orientation="0" android:id="false" android:background="5698ac" android:layout_width="-1" android:layout_height="-2">
+			<Button android:textSize="20sp" android:textColor="e9edef" android:id="false" android:background="resourceId:0x106000d" android:layout_width="60sp" android:layout_height="-2" android:foreground="{2:16843534}" android:text="&lt;" />
+			<TextView android:textSize="30sp" android:textColor="e9edef" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Username" />
+		</RelativeLayout>
+		<ScrollView android:id="false" android:background="res/drawable-v24/scroll_bg.jpg" android:layout_width="-1" android:layout_height="-2" android:layout_above="false" android:layout_below="false">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true" android:windowSoftInputMode="0x14" android:animateLayoutChanges="true" />
+		</ScrollView>
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Enter message" android:layout_alignParentBottom="true">
+			<EditText android:id="false" android:background="resourceId:0x0" android:paddingLeft="10sp" android:layout_width="-2" android:layout_height="50sp" android:hint="Type a message..." android:maxLines="2" android:layout_toLeftOf="false" android:layout_alignParentLeft="true" android:inputType="0x24001" />
+			<Button android:textSize="20sp" android:textColor="5698ac" android:id="false" android:layout_width="50sp" android:layout_height="-2" android:text="➤" android:layout_alignParentRight="true" android:backgroundTint="0000" style="{2:16843563}" />
+		</RelativeLayout>
+	</RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

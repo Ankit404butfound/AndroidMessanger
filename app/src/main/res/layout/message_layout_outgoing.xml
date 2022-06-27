@@ -1,19 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-
-    <TextView
-        android:maxWidth="300sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/outgoing"
-        android:text="This is closest I could get to WhatsApp speech bubble. And thanks to @toobsco42 for the answer above."
-        android:lineSpacingExtra="2dp"
-        android:paddingLeft="10dp"
-        android:paddingTop="4dp"
-        android:paddingRight="20dp"
-        android:paddingBottom="10dp"
-        android:layout_alignParentRight="true"/>
-
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+	<TextView android:textColor="f1419" android:id="false" android:background="res/drawable/outgoing.xml" android:paddingLeft="10dp" android:paddingTop="4dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:maxWidth="300sp" android:text="This is closest I could get to WhatsApp speech bubble. And thanks to @toobsco42 for the answer above." android:layout_alignParentRight="true" android:lineSpacingExtra="2dp" />
 </RelativeLayout>

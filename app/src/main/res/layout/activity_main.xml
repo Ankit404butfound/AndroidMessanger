@@ -1,57 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
-<!--    android:background="@drawable/bg_gradient"-->
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/app_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="RajmaGram"
-            android:textStyle="bold"
-            android:textSize="35sp"
-            android:textAlignment="center"
-            android:gravity="center_horizontal"
-            android:background="#5698ac"
-            android:textColor="#ffffff"/>
-    
-
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/app_title">
-            <LinearLayout
-                android:id="@+id/user_field_layout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-<!--                <include layout="@layout/user_area"/>-->
-<!--                <include layout="@layout/seperator"/>-->
-<!--                <include layout="@layout/user_area"/>-->
-
-            </LinearLayout>
-        </ScrollView>
-    </RelativeLayout>
-
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        android:tint="#ffffff"
-        app:tint="@android:color/white"
-        app:backgroundTint="#5698ac"
-        app:srcCompat="@android:drawable/ic_input_add" />
-
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="35sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x1" android:id="false" android:background="5698ac" android:layout_width="-1" android:layout_height="-2" android:text="RajmaGram" />
+		<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1" />
+		</ScrollView>
+	</RelativeLayout>
+	<com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="0x800055" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16dp" android:tint="ffffff" app:backgroundTint="5698ac" app:srcCompat="resourceId:0x108002b" app:tint="resourceId:0x106000b" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

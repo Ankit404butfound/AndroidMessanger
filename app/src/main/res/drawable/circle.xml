@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item>
-        <shape android:shape="oval">
-            <solid android:color="#eeeeee"/>
-        </shape>
-    </item>
-    <item
-        android:top="2dp"
-        android:bottom="2dp"
-        android:left="2dp"
-        android:right="2dp">
-        <shape android:shape="oval">
-            <solid android:color="#DCDCDC"/>
-        </shape>
-    </item>
-    <item
-        android:drawable="@drawable/defaultprofile_bgless"
-        android:bottom="100dp"
-        android:left="100dp"
-        android:right="100dp"
-        android:top="100dp"/></layer-list>
+	<item>
+		<shape android:shape="1">
+			<solid android:color="eeeeee" />
+		</shape>
+	</item>
+	<item android:left="2dp" android:top="2dp" android:right="2dp" android:bottom="2dp">
+		<shape android:shape="1">
+			<solid android:color="dcdcdc" />
+		</shape>
+	</item>
+	<item android:drawable="res/drawable-v24/defaultprofile_bgless.png" android:left="100dp" android:top="100dp" android:right="100dp" android:bottom="100dp" />
+</layer-list>
